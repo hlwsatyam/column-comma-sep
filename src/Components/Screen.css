@@ -1,0 +1,161 @@
+.tool-body {
+    background-color: #F2F2F2;
+}
+
+header>img {
+    width: 9rem;
+}
+
+
+#highight {
+    color: #1c33ff;
+    font-weight: 700;
+}
+
+.base-head {
+    background: linear-gradient(45deg, #939FFF, #FCFDFF);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.base-head>.left {
+    width: 100%;
+    /* background-color: #c50c0c; */
+}
+
+.base-head>.right {
+    width: 100%;
+    /* background-color: #52ff46; */
+}
+
+.vec-2 {
+    /* background-color: #8d8d8d; */
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .vec-2 {
+        /* background-color: #8d8d8d; */
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.vec-2>.left {
+    width: 5%;
+    /* background-color: #120cc5; */
+}
+
+.vec-2>.right {
+    width: 5%;
+    /* background-color: #52ff46; */
+}
+
+.vec-2>.middle {
+    width: 90%;
+    text-align: left;
+    /* background-color: #ff2dbd; */
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .textarea2 {
+        /* background-color: #8d8d8d; */
+        --bs-gutter-y: 2rem;
+    }
+}
+
+
+
+.water-c {
+    background-color: #EEEFF8;
+}
+
+.aqua-c {
+    background-color: #F7FFFE;
+}
+
+textarea::placeholder {
+    text-align: center;
+
+    transform: translateY(100px);
+}
+
+.copy-icon {
+    position: absolute;
+    margin-left: -1.5rem;
+    margin-top: .5rem;
+}
+
+.copy-icon:hover {
+    box-shadow: 0px 0px 5px rgb(103, 103, 103);
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+@media only screen and (max-width: 736px) {
+    .text-right {
+        text-align: center;
+    }
+
+    .tips-header {
+        margin-bottom: 1rem;
+    }
+
+}
+
+
+
+.text-left {
+    text-align: left;
+}
+
+.vec-1 {}
+
+footer {
+    background-color: #A9B2FB;
+    text-align: center;
+    color: antiquewhite;
+
+
+}
+
+footer>h6 {
+    padding: 1.5rem;
+
+
+}
+
+.setting:hover {
+    transition: ease-in-out 1s;
+}
+
+.setting:hover {
+    background-color: #d1d1d1;
+}
+
+.Frame1 {
+    position: absolute;
+
+    top: 72px;
+}
+
+.v3 {
+    position: absolute;
+    top: 72px;
+    width: 10%;
+}

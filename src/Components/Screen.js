@@ -4,6 +4,7 @@ import Frame from '../Components/Images/Frame.png'
 import vec2 from '../Components/Images/Vector 2.png'
 import Frame1 from '../Components/Images/F1.png'
 import v3 from '../Components/Images/v3.png'
+import XMLID_1_ from '../Components/Images/XMLID_1_.png'
 
 import copy from 'copy-to-clipboard'
 
@@ -55,23 +56,23 @@ function Screen() {
             < section className="container-fluid text-center">
                 {/* logo panel Start*/}
 
-                < header > <img src={Logo} alt="Eduireify" />   </ header>
+                < header className='p-3' > <img src={Logo} alt="Edureify" />   </ header>
 
                 {/* logo panel  End*/}
 
                 < div className="base-head ">
 
                     <div className="left  p-3 ">
-                        <img className='img-fluid' src={Frame} alt="Eduireify" />
+                        <img className='img-fluid frame p-4  ' src={Frame} alt="Eduireify" />
 
                     </div>
                     <div className="right p-2 ">
-                        <p>Welcome To Eduireify <span id='highight' >Tool By Eduireify</span>  </p>
+                        <p>Welcome To<span id='highight' > Tool By Edureify</span>  </p>
                         <h2>CONVERT COLUMN TO COMMA SEPARATED LIST  </h2>
                         <img className='v3' src={v3} alt="Eduireify" />
                     </div>
                 </div>
-
+                
 
             </section >
             {/* Header End */}
@@ -117,13 +118,13 @@ function Screen() {
 
                     <div className=" textarea  col-md-6">
 
-                        <textarea value={inputVal} onChange={(e) => setInputVal(e.target.value)} placeholder='Enter (or paste) your column of data here' className=" water-c" name="" id="" cols="30" rows="10"></textarea>
+                        <textarea value={inputVal} onChange={(e) => setInputVal(e.target.value)} placeholder='Enter (or paste) your column of data here' className=" water-c rounded " name="" id="" cols="30" rows="10"></textarea>
 
                     </div>
 
                     <div className=" textarea2   col-md-6 ">
-                        <textarea value={commaSeparatedWords} placeholder='Your comma separated list of data will appear here' className=" aqua-c " name="" id="" cols="30" rows="10"></textarea>
-                        <i onClick={copyToBoard} class=" copy-icon fa-solid fa-copy"></i>
+                        <textarea value={commaSeparatedWords} placeholder='Your comma separated list of data will appear here' className=" aqua-c rounded " name="" id="" cols="30" rows="10"></textarea>
+                        <i onClick={copyToBoard} class=" copy-icon border rounded p-1 fa-solid fa-copy"></i>
                     </div>
                 </div>
             </section>

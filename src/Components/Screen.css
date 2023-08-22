@@ -15,9 +15,20 @@ header>img {
 .base-head {
     background: linear-gradient(45deg, #939FFF, #FCFDFF);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
+
+.frame {
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .frame {
+        width: 100%;
+    }
+}
+
 
 .base-head>.left {
     width: 100%;
@@ -94,7 +105,7 @@ textarea::placeholder {
 
 .copy-icon {
     position: absolute;
-    margin-left: -1.5rem;
+    margin-left: -2rem;
     margin-top: .5rem;
 }
 
@@ -150,12 +161,20 @@ footer>h6 {
 
 .Frame1 {
     position: absolute;
-
-    top: 72px;
+    top: 106px;
+    left: 50%;
 }
 
 .v3 {
     position: absolute;
-    top: 72px;
+    top: 61px;
     width: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .v3 {
+        position: absolute;
+        top: 108px;
+        width: 10%;
+    }
 }
